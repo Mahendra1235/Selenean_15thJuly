@@ -10,21 +10,21 @@ import partner4 from "../assets/Analog-chips logo.webp";
 
 const partners = [
   {
-    name: "Partner 1",
+    name: "Tescom",
     logo: partner1,
   },
   {
-    name: "Partner 2",
+    name: "Trakmate",
     logo: partner2,
   },
   {
-    name: "Partner 3",
+    name: "Eldaas Technologies",
     logo: partner3,
   },
-    {
-      name: "Partner 4",
-      logo: partner4,
-    },
+  {
+    name: "Analog Chips",
+    logo: partner4,
+  },
 ];
 
 export default function Partners() {
@@ -34,6 +34,7 @@ export default function Partners() {
 
       <section className="partners-page">
         <div className="container">
+
           <div className="section-title">
             <small>OUR PARTNERS</small>
 
@@ -41,18 +42,26 @@ export default function Partners() {
 
             <p>
               We collaborate with leading technology companies to deliver
-              innovative semiconductor, embedded, AI, and sustainable digital
-              solutions for our customers.
+              innovative semiconductor, embedded systems, AI, and sustainable
+              digital solutions for our customers.
             </p>
           </div>
 
           <div className="partners-grid">
             {partners.map((partner) => (
               <div className="partner-card" key={partner.name}>
-                <img src={partner.logo} alt={partner.name} />
+                <img
+                  src={partner.logo}
+                  alt={partner.name}
+                  loading="lazy"
+                  decoding="async"
+                  width="220"
+                  height="100"
+                />
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
