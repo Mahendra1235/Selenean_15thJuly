@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Partners from "./Pages/Partners";
 import Contact from "./Pages/Contact";
 import ScrollToTop from "./Components/ScrollToTop";
+import Statutory from "./Pages/Statutory";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/statutory" element={<Statutory />} />
       </Routes>
     </BrowserRouter>
   );
