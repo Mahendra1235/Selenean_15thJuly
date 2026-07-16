@@ -90,9 +90,13 @@ useEffect(() => {
 
     if (element) {
       setTimeout(() => {
-        element.scrollIntoView({
+        const headerHeight = 90; // Adjust to your header height
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset;
+
+        window.scrollTo({
+          top: elementPosition - headerHeight,
           behavior: "smooth",
-          block: "start",
         });
       }, 100);
     }
