@@ -14,7 +14,7 @@ import {
 const cards = [
   {
     number: "01",
-    title: "Semiconductor",
+    title: "Silicon",
     icon: <Cpu size={42} strokeWidth={1.6} />,
     link: "/semiconductor",
     description: (
@@ -30,7 +30,7 @@ const cards = [
   },
   {
     number: "02",
-    title: "Embedded Systems",
+    title: "Systems",
     icon: <CircuitBoard size={42} strokeWidth={1.6} />,
     link: "/embedded",
     description: (
@@ -46,7 +46,7 @@ const cards = [
   },
   {
     number: "03",
-    title: "Sustainable Digital Solutions",
+    title: "Sustainability",
     icon: <Leaf size={42} strokeWidth={1.6} />,
     link: "/sds",
     description: (
