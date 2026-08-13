@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa6";
 import { HiOutlineGlobe } from "react-icons/hi";
 
-import logo from "../assets/Footer-logo.png";
+import logo from "../assets/Selenean-new footer logo.jpg";
 
 export default function Footer() {
   return (

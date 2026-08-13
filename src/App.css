@@ -253,9 +253,10 @@ header {
 }
 
 .logo img {
-  height: 155px;
-  width: auto;
+  height: 100px;
+  width: 310px;
   display: block;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -636,7 +637,7 @@ LOGO & COMPANY
 ====================================*/
 
 .footer-logo {
-  width: 220px;
+  width: 330px;
   height: auto;
   border-radius: 12px;
   margin-bottom: 22px;

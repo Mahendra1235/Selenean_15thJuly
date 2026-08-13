@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/Selenean logo_new.png";
+import logo from "../assets/SELENEAN TECHNOLOGIES V4-03.svg";
 import utsLogo from "../assets/UTS_Resized logo,,1.jpg";
 import { Link } from "react-router-dom";
 import { ChevronDown, ChevronRight } from "lucide-react";
