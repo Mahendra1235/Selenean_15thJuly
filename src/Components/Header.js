@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/SELENEAN TECHNOLOGIES V4-03.svg";
-import utsLogo from "../assets/UTS_Resized logo,,1.jpg";
+// import utsLogo from "../assets/UTS_Resized logo,,1.jpg";
 import { Link } from "react-router-dom";
 import { ChevronDown, ChevronRight } from "lucide-react";
 
@@ -111,14 +111,14 @@ export default function Header() {
         </nav>
 
         {/* Parent Company */}
-        <a
+        {/* <a
           href="https://univisiontechsolutions.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="parent-company"
         >
           <img src={utsLogo} alt="UTS Group" />
-        </a>
+        </a> */}
       </div>
     </header>
   );
